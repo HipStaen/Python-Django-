@@ -1,0 +1,14 @@
+{% extends 'main/mainpage.html' %}
+{% load static %}
+{% block content %}
+    <div>
+    {{ skillspage.text|safe }}
+        <img class="skills_img" src="{{ skillspage.graph.url }}" alt="homepage_img">
+
+    </div>
+
+
+
+
+
+{% endblock %}
